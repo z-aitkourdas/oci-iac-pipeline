@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+tfplan.binary
+tfplan.json
+override.tf
+override.tf.json
+
+# OCI credentials - NEVER commit these
+.oci/
+oci_api_key.pem
+oci_api_key_public.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# OS
+.DS_Store
+*.swp
+*.swo
